@@ -1,16 +1,13 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/j1x3g/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/j1x3g/proprietary/bin/mfgloader:system/bin/mfgloader \
-    vendor/samsung/j1x3g/proprietary/bin/sprdSleepLog:system/bin/sprdSleepLog \
     vendor/samsung/j1x3g/proprietary/bin/modemd:system/bin/modemd \
     vendor/samsung/j1x3g/proprietary/bin/bih_config.sh:system/bin/bih_config.sh \
-    vendor/samsung/j1x3g/proprietary/bin/bootchecker:system/bin/bootchecker \
     vendor/samsung/j1x3g/proprietary/bin/ext_symlink.sh:system/bin/ext_symlink.sh \
     vendor/samsung/j1x3g/proprietary/bin/ext_data.sh:system/bin/ext_data.sh \
     vendor/samsung/j1x3g/proprietary/bin/ext_kill.sh:system/bin/ext_kill.sh \
     vendor/samsung/j1x3g/proprietary/bin/inputfreq.sh:system/bin/inputfreq.sh \
     vendor/samsung/j1x3g/proprietary/bin/recoveryfreq.sh:system/bin/recoveryfreq.sh \
-    vendor/samsung/j1x3g/proprietary/bin/IPSecService:system/bin/IPSecService \
     vendor/samsung/j1x3g/proprietary/bin/ddexe:system/bin/ddexe \
     vendor/samsung/j1x3g/proprietary/bin/connfwexe:system/bin/connfwexe \
     vendor/samsung/j1x3g/proprietary/bin/wlandutservice:system/bin/wlandutservice \
@@ -23,12 +20,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j1x3g/proprietary/etc/connectivity_configure.ini:system/etc/connectivity_configure.ini \
     vendor/samsung/j1x3g/proprietary/etc/feature_default.xml:system/etc/feature_default.xml \
     vendor/samsung/j1x3g/proprietary/etc/floating_feature.xml:system/etc/floating_feature.xml \
-    vendor/samsung/j1x3g/proprietary/etc/nwk_info.xml:system/etc/nwk_info.xml \
     vendor/samsung/j1x3g/proprietary/etc/purenandpackages_pref.txt:system/etc/purenandpackages_pref.txt \
     vendor/samsung/j1x3g/proprietary/etc/purenandpackages.txt:system/etc/purenandpackages.txt \
     vendor/samsung/j1x3g/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
-    vendor/samsung/j1x3g/proprietary/etc/thermalSensorsConfig.xml:system/etc/thermalSensorsConfig.xml \
-    vendor/samsung/j1x3g/proprietary/etc/.omxregister:system/etc/.omxregister \
     vendor/samsung/j1x3g/proprietary/etc/somxreg.conf:system/etc/somxreg.conf \
     vendor/samsung/j1x3g/proprietary/etc/firmware/sc2331_fdl.bin:system/etc/firmware/sc2331_fdl.bin \
     vendor/samsung/j1x3g/proprietary/etc/firmware/sc2331_fw.bin:system/etc/firmware/sc2331_fw.bin \
